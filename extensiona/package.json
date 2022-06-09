@@ -18,7 +18,7 @@
 		"commands": [
 			{
 				"command": "abc",
-				"title": "Command `abc` in extensionA",
+				"title": "Command `abc`",
 				"category": "ExtensionA"
 			},
 			{
