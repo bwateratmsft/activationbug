@@ -1,6 +1,7 @@
 {
   "name": "extensiona",
 	"displayName": "extensionA",
+	"publisher": "bwater",
 	"description": "",
 	"version": "0.0.1",
 	"engines": {
