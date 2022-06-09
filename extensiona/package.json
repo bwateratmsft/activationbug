@@ -23,7 +23,7 @@
 			},
 			{
 				"command": "abcByApi",
-				"title": "Executes command `abc` but via API",
+				"title": "Command `abc` but via API",
 				"category": "ExtensionA"
 			}
 		]
