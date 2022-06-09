@@ -1,0 +1,39 @@
+// See https://go.microsoft.com/fwlink/?LinkId=733558
+// for the documentation about the tasks.json format
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "watch",
+			"label": "Build extension A",
+			"problemMatcher": "$tsc-watch",
+			"path": "extensiona",
+			"isBackground": true,
+			"presentation": {
+				"reveal": "never"
+			},
+			"group": {
+				"kind": "build"
+			}
+		},
+		{
+			"type": "npm",
+			"script": "watch",
+			"label": "Build extension B",
+			"problemMatcher": "$tsc-watch",
+			"path": "extensionb",
+			"isBackground": true,
+			"presentation": {
+				"reveal": "never"
+			},
+			"group": {
+				"kind": "build"
+			}
+		},
+		{
+			"label": "Build Both",
+			"dependsOn": ["Build extension A", "Build extension B"]
+		}
+	]
+}
